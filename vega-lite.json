@@ -1,0 +1,469 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "values": [
+        {
+          "OrderDate": 44202,
+          "Region": "East",
+          "Rep": "Jones",
+          "Item": "Pencil",
+          "Units": 95,
+          "Unit Cost": 1.99,
+          "Total": 189.05
+        },
+        {
+          "OrderDate": 44219,
+          "Region": "Central",
+          "Rep": "Kivell",
+          "Item": "Binder",
+          "Units": 50,
+          "Unit Cost": 19.99,
+          "Total": 999.4999999999999
+        },
+        {
+          "OrderDate": 44236,
+          "Region": "Central",
+          "Rep": "Jardine",
+          "Item": "Pencil",
+          "Units": 36,
+          "Unit Cost": 4.99,
+          "Total": 179.64000000000001
+        },
+        {
+          "OrderDate": 44253,
+          "Region": "Central",
+          "Rep": "Gill",
+          "Item": "Pen",
+          "Units": 27,
+          "Unit Cost": 19.99,
+          "Total": 539.7299999999999
+        },
+        {
+          "OrderDate": 44270,
+          "Region": "West",
+          "Rep": "Sorvino",
+          "Item": "Pencil",
+          "Units": 56,
+          "Unit Cost": 2.99,
+          "Total": 167.44
+        },
+        {
+          "OrderDate": 44287,
+          "Region": "East",
+          "Rep": "Jones",
+          "Item": "Binder",
+          "Units": 60,
+          "Unit Cost": 4.99,
+          "Total": 299.40000000000003
+        },
+        {
+          "OrderDate": 44304,
+          "Region": "Central",
+          "Rep": "Andrews",
+          "Item": "Pencil",
+          "Units": 75,
+          "Unit Cost": 1.99,
+          "Total": 149.25
+        },
+        {
+          "OrderDate": 44321,
+          "Region": "Central",
+          "Rep": "Jardine",
+          "Item": "Pencil",
+          "Units": 90,
+          "Unit Cost": 4.99,
+          "Total": 449.1
+        },
+        {
+          "OrderDate": 44338,
+          "Region": "West",
+          "Rep": "Thompson",
+          "Item": "Pencil",
+          "Units": 32,
+          "Unit Cost": 1.99,
+          "Total": 63.68
+        },
+        {
+          "OrderDate": 44355,
+          "Region": "East",
+          "Rep": "Jones",
+          "Item": "Binder",
+          "Units": 60,
+          "Unit Cost": 8.99,
+          "Total": 539.4
+        },
+        {
+          "OrderDate": 44372,
+          "Region": "Central",
+          "Rep": "Morgan",
+          "Item": "Pencil",
+          "Units": 90,
+          "Unit Cost": 4.99,
+          "Total": 449.1
+        },
+        {
+          "OrderDate": 44389,
+          "Region": "East",
+          "Rep": "Howard",
+          "Item": "Binder",
+          "Units": 29,
+          "Unit Cost": 1.99,
+          "Total": 57.71
+        },
+        {
+          "OrderDate": 44406,
+          "Region": "East",
+          "Rep": "Parent",
+          "Item": "Binder",
+          "Units": 81,
+          "Unit Cost": 19.99,
+          "Total": 1619.1899999999998
+        },
+        {
+          "OrderDate": 44423,
+          "Region": "East",
+          "Rep": "Jones",
+          "Item": "Pencil",
+          "Units": 35,
+          "Unit Cost": 4.99,
+          "Total": 174.65
+        },
+        {
+          "OrderDate": 44440,
+          "Region": "Central",
+          "Rep": "Smith",
+          "Item": "Desk",
+          "Units": 2,
+          "Unit Cost": 125,
+          "Total": 250
+        },
+        {
+          "OrderDate": 44457,
+          "Region": "East",
+          "Rep": "Jones",
+          "Item": "Pen Set",
+          "Units": 16,
+          "Unit Cost": 15.99,
+          "Total": 255.84
+        },
+        {
+          "OrderDate": 44474,
+          "Region": "Central",
+          "Rep": "Morgan",
+          "Item": "Binder",
+          "Units": 28,
+          "Unit Cost": 8.99,
+          "Total": 251.72
+        },
+        {
+          "OrderDate": 44491,
+          "Region": "East",
+          "Rep": "Jones",
+          "Item": "Pen",
+          "Units": 64,
+          "Unit Cost": 8.99,
+          "Total": 575.36
+        },
+        {
+          "OrderDate": 44508,
+          "Region": "East",
+          "Rep": "Parent",
+          "Item": "Pen",
+          "Units": 15,
+          "Unit Cost": 19.99,
+          "Total": 299.84999999999997
+        },
+        {
+          "OrderDate": 44525,
+          "Region": "Central",
+          "Rep": "Kivell",
+          "Item": "Pen Set",
+          "Units": 96,
+          "Unit Cost": 4.99,
+          "Total": 479.04
+        },
+        {
+          "OrderDate": 44542,
+          "Region": "Central",
+          "Rep": "Smith",
+          "Item": "Pencil",
+          "Units": 67,
+          "Unit Cost": 1.29,
+          "Total": 86.43
+        },
+        {
+          "OrderDate": 44559,
+          "Region": "East",
+          "Rep": "Parent",
+          "Item": "Pen Set",
+          "Units": 74,
+          "Unit Cost": 15.99,
+          "Total": 1183.26
+        },
+        {
+          "OrderDate": 44576,
+          "Region": "Central",
+          "Rep": "Gill",
+          "Item": "Binder",
+          "Units": 46,
+          "Unit Cost": 8.99,
+          "Total": 413.54
+        },
+        {
+          "OrderDate": 44593,
+          "Region": "Central",
+          "Rep": "Smith",
+          "Item": "Binder",
+          "Units": 87,
+          "Unit Cost": 15,
+          "Total": 1305
+        },
+        {
+          "OrderDate": 44610,
+          "Region": "East",
+          "Rep": "Jones",
+          "Item": "Binder",
+          "Units": 4,
+          "Unit Cost": 4.99,
+          "Total": 19.96
+        },
+        {
+          "OrderDate": 44627,
+          "Region": "West",
+          "Rep": "Sorvino",
+          "Item": "Binder",
+          "Units": 7,
+          "Unit Cost": 19.99,
+          "Total": 139.92999999999998
+        },
+        {
+          "OrderDate": 44644,
+          "Region": "Central",
+          "Rep": "Jardine",
+          "Item": "Pen Set",
+          "Units": 50,
+          "Unit Cost": 4.99,
+          "Total": 249.5
+        },
+        {
+          "OrderDate": 44661,
+          "Region": "Central",
+          "Rep": "Andrews",
+          "Item": "Pencil",
+          "Units": 66,
+          "Unit Cost": 1.99,
+          "Total": 131.34
+        },
+        {
+          "OrderDate": 44678,
+          "Region": "East",
+          "Rep": "Howard",
+          "Item": "Pen",
+          "Units": 96,
+          "Unit Cost": 4.99,
+          "Total": 479.04
+        },
+        {
+          "OrderDate": 44695,
+          "Region": "Central",
+          "Rep": "Gill",
+          "Item": "Pencil",
+          "Units": 53,
+          "Unit Cost": 1.29,
+          "Total": 68.37
+        },
+        {
+          "OrderDate": 44712,
+          "Region": "Central",
+          "Rep": "Gill",
+          "Item": "Binder",
+          "Units": 80,
+          "Unit Cost": 8.99,
+          "Total": 719.2
+        },
+        {
+          "OrderDate": 44729,
+          "Region": "Central",
+          "Rep": "Kivell",
+          "Item": "Desk",
+          "Units": 5,
+          "Unit Cost": 125,
+          "Total": 625
+        },
+        {
+          "OrderDate": 44746,
+          "Region": "East",
+          "Rep": "Jones",
+          "Item": "Pen Set",
+          "Units": 62,
+          "Unit Cost": 4.99,
+          "Total": 309.38
+        },
+        {
+          "OrderDate": 44763,
+          "Region": "Central",
+          "Rep": "Morgan",
+          "Item": "Pen Set",
+          "Units": 55,
+          "Unit Cost": 12.49,
+          "Total": 686.95
+        },
+        {
+          "OrderDate": 44780,
+          "Region": "Central",
+          "Rep": "Kivell",
+          "Item": "Pen Set",
+          "Units": 42,
+          "Unit Cost": 23.95,
+          "Total": 1005.9
+        },
+        {
+          "OrderDate": 44797,
+          "Region": "West",
+          "Rep": "Sorvino",
+          "Item": "Desk",
+          "Units": 3,
+          "Unit Cost": 275,
+          "Total": 825
+        },
+        {
+          "OrderDate": 44814,
+          "Region": "Central",
+          "Rep": "Gill",
+          "Item": "Pencil",
+          "Units": 7,
+          "Unit Cost": 1.29,
+          "Total": 9.030000000000001
+        },
+        {
+          "OrderDate": 44831,
+          "Region": "West",
+          "Rep": "Sorvino",
+          "Item": "Pen",
+          "Units": 76,
+          "Unit Cost": 1.99,
+          "Total": 151.24
+        },
+        {
+          "OrderDate": 44848,
+          "Region": "West",
+          "Rep": "Thompson",
+          "Item": "Binder",
+          "Units": 57,
+          "Unit Cost": 19.99,
+          "Total": 1139.4299999999998
+        },
+        {
+          "OrderDate": 44865,
+          "Region": "Central",
+          "Rep": "Andrews",
+          "Item": "Pencil",
+          "Units": 14,
+          "Unit Cost": 1.29,
+          "Total": 18.060000000000002
+        },
+        {
+          "OrderDate": 44882,
+          "Region": "Central",
+          "Rep": "Jardine",
+          "Item": "Binder",
+          "Units": 11,
+          "Unit Cost": 4.99,
+          "Total": 54.89
+        },
+        {
+          "OrderDate": 44899,
+          "Region": "Central",
+          "Rep": "Jardine",
+          "Item": "Binder",
+          "Units": 94,
+          "Unit Cost": 19.99,
+          "Total": 1879.06
+        },
+        {
+          "OrderDate": 44916,
+          "Region": "Central",
+          "Rep": "Andrews",
+          "Item": "Binder",
+          "Units": 28,
+          "Unit Cost": 4.99,
+          "Total": 139.72
+        }
+      ]
+    },
+    "vconcat": [
+      {
+        "mark": {"type": "arc", "innerRadius": 44},
+        "encoding": {
+          "theta": {"field": "Total", "type": "quantitative"},
+          "color": {"field": "Rep", "type": "nominal"},
+          "tooltip": [
+            {"field": "Rep", "type": "nominal"},
+            {"field": "Total", "type": "quantitative"}
+          ]
+        },
+        "title": "Donut Chart of Total Sales by Rep"
+      },
+      {
+        "mark": "point",
+        "encoding": {
+          "x": {"field": "Units", "type": "quantitative"},
+          "y": {"field": "Unit Cost", "type": "quantitative"},
+          "color": {
+            "condition": {
+              "selection": "brush",
+              "field": "Item",
+              "type": "nominal"
+            },
+            "value": "grey"
+          },
+          "tooltip": [
+            {"field": "Units", "type": "quantitative"},
+            {"field": "Unit Cost", "type": "quantitative"},
+            {"field": "Item", "type": "nominal"}
+          ]
+        },
+        "title": "Correlation between Units and Unit Cost with Rectangle Brush highlighting Item",
+        "selection": {"brush": {"type": "interval", "encodings": ["x", "y"]}}
+      },
+      {
+        "mark": "area",
+        "encoding": {
+          "x": {"field": "OrderDate", "type": "temporal"},
+          "y": {"field": "Total", "type": "quantitative"},
+          "color": {"field": "Item", "type": "nominal"},
+          "tooltip": {"field": "Item", "type": "nominal"}
+        },
+        "title": "Streamgraph of Total Sales Over Time by Item"
+      },
+      {
+        "layer": [
+          {
+            "mark": {"type": "bar", "color": "steelblue"},
+            "encoding": {
+              "x": {"field": "Units", "type": "quantitative", "bin": true},
+              "y": {"aggregate": "count", "type": "quantitative"}
+            }
+          },
+          {
+            "mark": {"type": "rule", "color": "red"},
+            "encoding": {
+              "x": {
+                "aggregate": "mean",
+                "field": "Units",
+                "type": "quantitative"
+              },
+              "size": {"value": 2},
+              "tooltip": {
+                "aggregate": "mean",
+                "field": "Units",
+                "type": "quantitative"
+              }
+            }
+          }
+        ],
+        "title": "Histogram of Units with Global Mean Overlay"
+      }
+    ],
+    "resolve": {"scale": {"color": "independent"}}
+  }
